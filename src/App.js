@@ -19,14 +19,14 @@ function App() {
 
         <Routes>
           <Route index element={<Starting />} />
-          <Route path = "/" element={<Layout />} >
-            <Route path = '/Home' element = {<Home />} />
-            <Route path = '/projects' element = {<Projects />} />
-            <Route path = '/contact' element = {<Contact />} />
-            <Route path = '/mindtreasure/case/study' element = {<MindTreasure />} />
-            <Route path = '/impromptu/case/study' element = {<Impromptu />} />
-            <Route path = '/quickfit/case/study' element = {<QuickFit />} />
-            <Route path = '/sugarcube/case/study' element = {<SugarCube />} />
+          <Route path = "/tyleroni" element={<Layout />} >
+            <Route path = '/tyleroni/Home' element = {<Home />} />
+            <Route path = '/tyleroni/projects' element = {<Projects />} />
+            <Route path = '/tyleroni/contact' element = {<Contact />} />
+            <Route path = '/tyleroni/mindtreasure/case/study' element = {<MindTreasure />} />
+            <Route path = '/tyleroni/impromptu/case/study' element = {<Impromptu />} />
+            <Route path = '/tyleroni/quickfit/case/study' element = {<QuickFit />} />
+            <Route path = '/tyleroni/sugarcube/case/study' element = {<SugarCube />} />
           </Route>
         </Routes> 
       
