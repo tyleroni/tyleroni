@@ -1,5 +1,5 @@
 import './App.scss';
-import { Routes, Route, UNSAFE_DataRouterStateContext } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Layout from './Components/Layout';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
@@ -18,9 +18,9 @@ function App() {
     <>
 
         <Routes>
-          <Route index element={<Starting />} />
+          
           <Route path = "/" element={<Layout />} >
-            <Route path = '/home' element = {<Home />} />
+            <Route index element = {<Home />} />
             <Route path = '/projects' element = {<Projects />} />
             <Route path = '/contact' element = {<Contact />} />
             <Route path = '/mindtreasure/case/study' element = {<MindTreasure />} />
@@ -35,3 +35,4 @@ function App() {
 }
 
 export default App
+//<Route index element={<Starting />} />
