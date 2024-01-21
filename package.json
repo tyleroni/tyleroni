@@ -2,8 +2,8 @@
   
   "name": "tyleroni",
   "version": "0.1.0",
-  "homepage": "https://tyleroni.github.io/tyleroni/",
-  "private": true,
+  "homepage": "https://tyleroni.github.io/tyleroni",
+  "private": false,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
