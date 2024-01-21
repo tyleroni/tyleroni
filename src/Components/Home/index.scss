@@ -1,0 +1,502 @@
+.home-page {
+    //max-height: 100%;
+
+    z-index: 1;
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        padding: 0% 0% 49vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+
+    .windows-gif {
+        position: absolute;
+        scale: 70%;
+        left: 30vw;
+        bottom: 12vh;
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+
+    .text-zone {
+        top: 60%;
+        position: absolute;
+        left: 6.5vw;
+        max-height: 90%;
+        width: 80%;
+        z-index: 1;
+    }
+    .text-zone2 {
+        overflow:hidden;
+        white-space: nowrap;
+//        border-right: .15em solid white;
+        top:-250%;
+        letter-spacing: 1px;
+        font-family: 'tech';
+        position: absolute;
+        left: 0vw;
+        width: 0;
+        max-height: 100%;
+        animation:
+            typing 1s steps(20, end),
+            blink-caret .5s step-end infinite;
+            animation-delay: .5s;
+        animation-fill-mode: forwards;
+    }
+
+    
+    .text-zone3 {
+        overflow: hidden;
+        white-space: nowrap;
+        top:-165%;
+        font-family: 'tech';
+        letter-spacing: 1px;
+        left: 0vw;
+        position: absolute;
+        width: 0;
+        max-height: 100%;
+        animation:
+            typing 1s steps(50, end),
+            blink-caret 3s step-end infinite;
+            animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    .text-zone4 {
+        overflow:hidden;
+        white-space: nowrap;
+        top:-85%;
+        letter-spacing: 1px;
+        font-family: 'tech';
+        left: 0vw;
+        position: absolute;
+        width: 0;
+        max-height: 100%;
+        animation:
+            typing 1.5s steps(50, end),
+            blink-caret .75s step-end infinite;
+            animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    h1 {
+        color: black;
+        font-size: 53px;
+        margin: 0;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 600;
+
+        &::before {
+            font-family:'Courier New, Courier, monospace';
+            color: black;
+            font-size:18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: .6;
+        }
+
+        &::after {
+            font-family:'Courier New, Courier, monospace';
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: .6;
+        }
+    }
+    h2 {
+        color: black;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        top: -250x;
+        font-family: 'tech';
+        width: 0;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        animation: 
+            typing 2s steps(70, end),
+            blink-caret .75s step-end infinite;
+            animation-delay: 3.5s;
+        animation-fill-mode: forwards;
+        
+    }
+
+
+    .flat-button {
+        color: black;
+        position: relative;
+        top: 30px;
+        width: 0;
+        margin: 20px 0px 0px 0px;
+        font-weight: 400;
+        font-size: 11px;
+        font-family:'tech';
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 1px solid;
+        border-color: white black black white;
+        background-color: #b3b3b3; 
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;   
+        &:hover {
+            background: #a8a8a8;
+            color: #333;
+        }   
+    }
+
+}
+
+
+@media (max-width: 1450px) {
+    .backgroundclr {
+        padding: 0vh 0vh 50vh 0vh;
+        margin: 10.6% 1.8% 0% 3.3%;
+    }
+    .windows-gif {
+        top: 1vh;
+        
+    }
+}
+
+@media (max-width: 1390px) {
+    .backgroundclr {
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        
+    }
+}
+
+@media (max-width: 1240px) {
+    .text-zone2 {
+        padding-top: 5%;;
+    }
+    .text-zone3 {
+        padding-top: 5%;;
+    }
+    .text-zone4 {
+        padding-top: 5%;;
+    }
+    h2 {
+        padding-top: 1%;
+    }
+    .windows-gif {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 1030px) {
+    .backgroundclr {
+        padding: 0vh 0vh 80vh 0vh;
+        margin: 10.6% 1.8% 0% 3.3%;
+    }
+    .windows-gif {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 810px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 40% !important;
+        padding: 0% 0% 55vh 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .text-zone-5 {
+        letter-spacing: 2px !important;
+        font-size: 14px !important;
+    }
+    .text-zone {
+        top: 20% !important;
+        //padding: 5% 0% 5% 0% !important;
+        position: absolute;
+        left: 6.5vw;
+        max-height: 90%;
+        width: 80%;
+        z-index: 1;
+    }
+    .text-zone2 {
+        padding-top: 0% !important;
+    }
+    .text-zone3 {
+        padding-top: 10% !important;
+    }
+    .text-zone4 {
+        padding-top: 20% !important;
+    }
+    h2 {
+        padding-top: 38% !important;
+    }
+    .windows-gif {
+        visibility:visible;
+        position: absolute;
+        scale: 90% !important;
+        left: 12vw !important;
+        bottom: -600vh !important;
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+}
+
+@media (max-width: 805px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 40% !important;
+        padding: 0% 0% 55vh 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .text-zone-5 {
+        letter-spacing: 2px !important;
+        font-size: 14px !important;
+    }
+    .text-zone {
+        top: 20% !important;
+        //padding: 5% 0% 5% 0% !important;
+        position: absolute;
+        left: 6.5vw;
+        max-height: 90%;
+        width: 80%;
+        z-index: 1;
+    }
+    .text-zone2 {
+        padding-top: 0% !important;
+    }
+    .text-zone3 {
+        padding-top: 10% !important;
+    }
+    .text-zone4 {
+        padding-top: 20% !important;
+    }
+    h2 {
+        padding-top: 38% !important;
+    }
+    .windows-gif {
+        visibility:visible;
+        position: absolute;
+        scale: 90% !important;
+        left: 12vw !important;
+        bottom: -600vh !important;
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 20%;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .text-zone-5 {
+        letter-spacing: 2px !important;
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 610px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 40% !important;
+        padding: 0% 0% 55vh 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .text-zone-5 {
+        letter-spacing: 2px !important;
+        font-size: 14px !important;
+    }
+    .text-zone {
+        top: 20% !important;
+        //padding: 5% 0% 5% 0% !important;
+        position: absolute;
+        left: 6.5vw;
+        max-height: 90%;
+        width: 80%;
+        z-index: 1;
+    }
+    .text-zone2 {
+        padding-top: 0% !important;
+    }
+    .text-zone3 {
+        padding-top: 10% !important;
+    }
+    .text-zone4 {
+        padding-top: 20% !important;
+    }
+    h2 {
+        padding-top: 38% !important;
+    }
+    .windows-gif {
+        visibility:visible;
+        position: absolute;
+        scale: 80% !important;
+        left: 0vw !important;
+        bottom: -250vh !important;
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+}
+
+@media (max-width: 420px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 90% !important;
+        padding: 0% 0% 65vh 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .text-zone-5 {
+        letter-spacing: 2px !important;
+        font-size: 14px !important;
+    }
+    .text-zone {
+        top: 20% !important;
+        //padding: 5% 0% 5% 0% !important;
+        position: absolute;
+        left: 6.5vw;
+        max-height: 90%;
+        width: 80%;
+        z-index: 1;
+    }
+    .text-zone2 {
+        padding-top: 0% !important;
+        font-size: 25pt !important;
+    }
+    .text-zone3 {
+        padding-top: 15% !important;
+        font-size: 25pt !important;
+    }
+    .text-zone4 {
+        padding-top: 30% !important;
+        font-size: 25pt !important;
+    }
+    .text-zone-5 {
+        padding-top: 50% !important;
+        font-size: 10pt !important;
+        letter-spacing: 2pt !important;
+        white-space: wrap !important;
+    }
+    .windows-gif {
+        visibility:visible;
+        position: absolute;
+        scale: 65% !important;
+        left: -20vw !important;
+        bottom: -180vh !important;
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+}
+
+@media (max-width: 380px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 90% !important;
+        padding: 0% 0% 76vh 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .text-zone-5 {
+        letter-spacing: 2px !important;
+        font-size: 14px !important;
+    }
+    .text-zone {
+        top: 20% !important;
+        //padding: 5% 0% 5% 0% !important;
+        position: absolute;
+        left: 6.5vw;
+        max-height: 90%;
+        width: 80%;
+        z-index: 1;
+    }
+    .text-zone2 {
+        padding-top: 0% !important;
+        font-size: 25pt !important;
+    }
+    .text-zone3 {
+        padding-top: 15% !important;
+        font-size: 25pt !important;
+    }
+    .text-zone4 {
+        padding-top: 30% !important;
+        font-size: 25pt !important;
+    }
+    .text-zone-5 {
+        padding-top: 50% !important;
+        font-size: 10pt !important;
+        letter-spacing: 2pt !important;
+        white-space: wrap !important;
+    }
+    .windows-gif {
+        visibility:visible;
+        position: absolute;
+        scale: 60% !important;
+        left: -20vw !important;
+        bottom: -160vh !important;
+        animation: fadeIn 1s 5.5s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+}
+
+@media (max-width: 380px) and (max-height: 670px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 90% !important;
+        padding: 0% 0% 73vh 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+}

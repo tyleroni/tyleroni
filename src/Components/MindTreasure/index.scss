@@ -1,0 +1,399 @@
+.mindtreasure-layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+.backgroundclr-mindtreasure {
+    background-color: #b3b3b3;
+    background-attachment: absolute;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    max-width: auto;
+    max-height: 150px;
+    min-height: 150px;
+    padding: 0% 0% 31.5% 0%;
+    margin: 8.6% 1.8% 0% 3.3%;
+    border: 1px solid;
+    border-color: white black black white;
+    z-index: 4;
+}
+
+.button {
+    display: inline-block;
+    position: absolute;
+    top: 90%;
+}
+
+.backbutton {
+    left: 80%;
+    background-color: transparent;
+    
+}
+
+.nextbutton {
+    left: 86.4%;
+    padding-left:.01%;
+}
+
+.casestudyh {
+    margin-bottom: 0%;
+    text-decoration: underline;
+}
+
+.mindtreasurebanner {
+    width: 90%;
+    height: auto;
+    padding: 5px 50px 50px 50px;
+}
+
+.text-zone-h2 {
+    margin: 0% 0% 0% 4.5%;
+    padding: 0% 5% 2% 0%;
+    font-family: 'tech';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.text-zone-p {
+    margin: 0% 0% 0% 4.5%;
+    padding: 0% 5% 2% 0%;
+    font-family: 'tech';
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    font-size: 20px;
+}
+
+.text-zone-h1 {
+    margin-top: 2%;
+}
+
+.persona {
+    padding: 0px 4.5% 20px 4.5%;
+    display: flex;
+}
+
+.personaimg {
+    width: 48%;
+    height: auto;
+}
+
+.alya-persona {
+    padding-right: 1%;
+}
+
+.linda-persona {
+    padding-left: 1%;
+}
+
+.information-architecture {
+    padding: 0px 10% 20px 3%;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.oldnavbar {
+    width:48%;
+    height: auto;
+}
+
+.newnavbar {
+    width:48%;
+    height: auto;
+}
+
+.mindtreasure-info-architecture-img {
+    width:90%;
+    height: auto;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.lofi {
+    padding: 0px 10% 20px 3%;
+    display: flex;
+    width: 100%;
+    //height: auto;
+}
+
+.lofihomepageimg {
+    width: 60%;
+    height: auto;
+    opacity: 0;
+}
+
+.contactpageimg {
+    width: 68%;
+    height: auto;
+}
+
+@media (max-width: 1600px) {
+    .button {
+        top: 84%;
+    }
+    .nextbutton {
+        padding-left: 3%;
+    }
+    
+}
+
+@media (max-width: 1570px) {
+    .button {
+        top: 84%;
+    }
+    
+}
+
+@media (max-width: 1450px) {
+    .button {
+        top: 85%;
+    }
+    .nextbutton {
+        left: 87.5%;
+        padding-left:.01%;
+    }
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 27.5% 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+}
+
+@media (max-width: 1390px) {
+    .nextbutton {
+        left: 87.8%;
+        padding-left:.01%;
+    }
+    
+}
+
+@media (max-width: 810px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 68% 0% !important ;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .casestudyh {
+        padding-top: 7%;
+        text-decoration: underline;
+    }
+    .button {
+        top: 90%;
+    }
+    .backbutton {
+        left: 74.3%;
+        padding-left:.01%;
+    }
+    .nextbutton {
+        left: 84.7%;
+        padding-left:.01%;
+    }
+    .text-zone-h2 {
+        padding-top: 0% !important;
+    }
+}
+
+
+@media (max-width: 805px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 86% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .casestudyh {
+        padding-top: 7%;
+        text-decoration: underline;
+    }
+    .button {
+        top: 90%;
+    }
+    .backbutton {
+        left: 74.3%;
+        padding-left:.01%;
+    }
+    .nextbutton {
+        left: 84.7%;
+        padding-left:.01%;
+    }
+    .text-zone-h2 {
+        padding-top: 0% !important;
+    }
+}
+
+@media (max-width: 780px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 90% 0% !important;
+        margin: 8.6% 1.8% -20% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .casestudyh {
+        padding-top: 7%;
+        text-decoration: underline;
+    }
+    .button {
+        top: 87%;
+    }
+    .backbutton {
+        left: 74.3%;
+        padding-left:.01%;
+    }
+    .nextbutton {
+        left: 84.7%;
+        padding-left:.01%;
+    }
+}
+
+@media (max-width: 420px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 140.5% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .mindtreasurebanner {
+        width: 90%;
+        height: auto;
+        padding: 5px 10% 50px 5%;
+        text-align: center !important;
+    }
+    .text-zone-h2 {
+        margin: 0% 0% 0% 4.5%;
+        padding: 0% 5% 2% 0%;
+        font-family: 'tech';
+        font-size: 20px;
+        font-weight: 400;
+        color: black;
+    }
+    .text-zone-p {
+        margin: 0% 0% 0% 4.5%;
+        padding: 0% 5% 2% 0%;
+        font-family: 'tech';
+        font-size: 30px;
+        font-weight: 400;
+        color: black;
+        font-size: 15px;
+    }
+    .button {
+        display: inline-block;
+        position: absolute;
+        top: 90%;
+        float:right;
+    }
+    
+    .backbutton {
+        left: 55%;
+        background-color: transparent;
+        
+    }
+    
+    .nextbutton {
+        left: 74%;
+        padding-left:.01%;
+    }
+    .casestudyh {
+        margin-bottom: 0%;
+        text-decoration: underline;
+        padding-top: 20%;
+    }
+    .text-zone-h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 140% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+}
+@media (max-width: 380px) and (max-height: 670px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 100% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .button {
+        display: inline-block;
+        position: absolute;
+        top: 85%;
+        float:right;
+    }
+    
+    .backbutton {
+        left: 55%;
+        background-color: transparent;
+        
+    }
+    
+    .nextbutton {
+        left: 74%;
+        padding-left:.01%;
+    }
+}

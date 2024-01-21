@@ -1,0 +1,24 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pixel';
+  src: url('./assets/fonts/Heading.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'tech';
+  src: url('./assets/fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'w95';
+  src: url('./assets/fonts/W95FA.otf') format('opentype');
+}
+

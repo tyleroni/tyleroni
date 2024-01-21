@@ -1,0 +1,77 @@
+.sugarcube-layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    
+}
+
+
+
+.hifi-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.hifiimg-container {
+    width: 100%;
+    padding-right: 0%;
+    display:flex;
+}
+
+.hifi-text {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+}
+
+.sugarcube1img {
+    width: 40%;
+    height: auto;
+    padding-left: 2%;
+}
+
+.sugarcube3img {
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
+}
+
+@media (max-width: 780px) {
+    .hifi-container {
+        width: 100%;
+        padding-left: 0%;
+        display:block;
+    }
+    .hifiimg-container {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}
+
+@media (max-width: 805px) {
+    .hifi-container {
+        width: 100%;
+        padding-left: 0%;
+        display:block;
+    }
+    .hifiimg-container {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}
+
+@media (max-width: 810px) {
+    .hifi-container {
+        width: 100%;
+        padding-left: 0%;
+        display:block;
+    }
+    .hifiimg-container {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}

@@ -1,0 +1,415 @@
+.projects-layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.heading {
+    padding-top: 5%;
+}
+
+.text-zone-h1 {
+    margin: 7% 0% 0% 4.5%;
+    padding: 0% 0% 2%;
+    font-family: 'w95';
+    font-size: 40px;
+    color: black;
+    top: 20%;
+    //position:static;
+}
+.text-zone-p {
+    font-size: 25pt;
+    font-family: 'w95';
+    margin: -1% 0% -15% 0%;
+    padding: 0% 4% 0% 4%;
+    display: block;
+    color: black;
+}
+
+
+.backgroundclr {
+    background-color: #b3b3b3;
+    background-attachment: absolute;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    max-width: auto;
+    max-height: 80%;
+    padding: 0% 0% 0% 0%;
+    margin: 8.6% 1.8% -6% 3.3%;
+    border: 1px solid;
+    border-color: white black black white;
+    z-index: 4;
+}
+
+.project {
+    //max-width: 100%;
+    width: 48%;
+    //height: 300px;
+    margin: 0% 0% 0% 0%;
+    padding: 25px;
+    white-space: wrap;
+    scale: 33%;
+    display: block;
+}
+
+.project-button {
+    text-decoration: none;
+    font-family: 'w95';
+    color: black;
+    font-size: 10pt;
+    border: 1px solid; 
+    border-color: black;
+    padding: 1% 5%;
+    left: 0%;
+    
+}
+
+.case-study1 {
+    display: flex;
+    
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.case-study2 {
+    display: flex;
+    
+    width: 100%;
+    padding-top: 2%;
+}
+
+.mindtreasure {
+    width: 46%;
+    height:auto;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    border: 1px solid;
+    border-color: white black black white;
+    padding: 2%;
+    margin-right: 2%;;
+}
+
+.img-container {
+    text-align: center;
+    
+}
+
+.mindtreasure-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
+    border-color: black;
+}
+
+.impromptu {
+    width: 46%;
+    height:auto;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    border: 1px solid;
+    border-color: white black black white;
+    padding: 2%;
+    margin-left: 2%;
+}
+
+
+.impromptu-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
+    border-color: black;
+}
+
+
+
+//MIND TREASURES CSS
+
+
+.mindtreasureh {
+    font-family: 'tech';
+    font-size: 25px;
+    color: black;
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+    white-space: wrap;
+    height: auto;
+    
+}
+
+.mindtreasurep {
+    font-family: 'tech';
+    font-size: 10pt;
+    margin: 0% 0% 5% 0%;
+    width: 100%;
+    text-wrap: wrap;
+    color:black;
+}
+
+.mindtreasureb {
+    margin: 0% 0% 0% 35%;
+}
+
+.mindtreasureb:hover {
+    background-color: #979797;
+}
+
+// IMPROMPTU CSS
+
+
+
+
+
+.impromptuh {
+    font-family: 'tech';
+    font-size: 25px;
+    color: black;
+    width: 100%;
+    white-space: wrap;
+    height: auto;
+}
+
+.impromptup {
+    font-family: 'tech';
+    font-size: 10pt;
+    width: 100%;
+    white-space: wrap;
+    color:black;
+}
+
+.impromptub {
+    margin: 0% 0% 0% 35%;
+}
+
+.impromptub:hover {
+    background-color: #979797;
+}
+
+// QUICKFIT CSS
+
+.quickfit {
+    width: 46%;
+    height:auto;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    border: 1px solid;
+    border-color: white black black white;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+.quickfit-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
+    border-color: black;
+}
+
+.quickfith {
+    font-family: 'tech';
+    font-size: 25px;
+    color: black;
+}
+
+.quickfitp {
+    font-family: 'tech';
+    font-size: 10pt;
+    margin: 0% 0% 5% 0%;
+    width: 100%;
+    text-wrap: wrap;
+    color:black;
+}
+
+.quickfitb {
+    margin: 0% 0% 0% 35%;
+}
+
+.quickfitb:hover {
+    background-color: #979797;
+}
+
+// SUGARCUBE CSS
+
+.sugarcube {
+    width: 46%;
+    height:auto;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    border: 1px solid;
+    border-color: white black black white;
+    padding: 2%;
+    margin-left: 2%;
+}
+
+.sugarcube-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
+    border-color: black;
+}
+
+.sugarcubeh {
+    font-family: 'tech';
+    font-size: 25px;
+    color: black;
+}
+
+.sugarcubep {
+    font-family: 'tech';
+    font-size: 10pt;
+    margin: 0% 0% 5% 0%;
+    width: 100%;
+    text-wrap: wrap;
+    color:black;
+}
+
+.sugarcubeb {
+    margin: 0% 0% 0% 35%;
+}
+
+.sugarcubeb:hover {
+    background-color: #979797;
+}
+
+@media (max-width: 780px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10%;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+}
+
+@media (max-width: 805px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10% !important;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .heading {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 810px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10% !important;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .heading {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 610px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10% !important;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .heading {
+        padding-top: 10%;
+    }
+    .case-study1 {
+        display: block;
+        
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    
+    .case-study2 {
+        display: block;
+        
+        width: 100%;
+        padding-top: 2%;
+    }
+    .mindtreasure {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+    }
+    .impromptu {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5% ;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+        margin-top: 5%;
+        margin-left: 0%;;
+    }
+    .quickfit {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+    }
+    .sugarcube {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5% ;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+        margin-top: 5%;
+        margin-left: 0%;;
+    }
+}
+
+@media (max-width: 420px) {
+    .heading {
+        padding-top: 20%;
+    }
+}
