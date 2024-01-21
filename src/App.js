@@ -18,8 +18,8 @@ function App() {
     <>
 
         <Routes>
-          <Route path = '/tyleroni/' element ={<Starting />} />
-          <Route path = "/" element={<Layout />} >
+          <Route path = '/' element ={<Starting />} />
+          <Route path = "/tyleroni" element={<Layout />} >
             <Route path = '/tyleroni/Home' element = {<Home />} />
             <Route path = '/tyleroni/projects' element = {<Projects />} />
             <Route path = '/tyleroni/contact' element = {<Contact />} />
