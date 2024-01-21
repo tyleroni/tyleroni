@@ -18,7 +18,7 @@ function App() {
     <>
 
         <Routes>
-          <Route path = '/' element ={<Starting />} />
+          <Route index element ={<Starting />} />
           <Route path = "/tyleroni" element={<Layout />} >
             <Route path = '/tyleroni/Home' element = {<Home />} />
             <Route path = '/tyleroni/projects' element = {<Projects />} />
