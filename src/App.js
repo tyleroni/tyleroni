@@ -18,9 +18,9 @@ function App() {
     <>
 
         <Routes>
-          
+          <Route index element={<Starting />} />
           <Route path = "/" element={<Layout />} >
-            <Route index element = {<Home />} />
+            <Route path = '/Home' element = {<Home />} />
             <Route path = '/projects' element = {<Projects />} />
             <Route path = '/contact' element = {<Contact />} />
             <Route path = '/mindtreasure/case/study' element = {<MindTreasure />} />
@@ -35,4 +35,4 @@ function App() {
 }
 
 export default App
-//<Route index element={<Starting />} />
+//
