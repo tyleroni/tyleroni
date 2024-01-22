@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tyleroni/static/css/main.0f84c2bb.css",
-    "main.js": "/tyleroni/static/js/main.f68eae63.js",
+    "main.js": "/tyleroni/static/js/main.aa3951ff.js",
     "static/js/787.01fb0a4b.chunk.js": "/tyleroni/static/js/787.01fb0a4b.chunk.js",
     "static/media/usertesting_video.mp4": "/tyleroni/static/media/usertesting_video.86773a9578a624f626d1.mp4",
     "static/media/cardboardkioskclosed.png": "/tyleroni/static/media/cardboardkioskclosed.edad50b3a700bf3fb9bf.png",
@@ -47,11 +47,11 @@
     "static/media/Minecraft.ttf": "/tyleroni/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
     "index.html": "/tyleroni/index.html",
     "main.0f84c2bb.css.map": "/tyleroni/static/css/main.0f84c2bb.css.map",
-    "main.f68eae63.js.map": "/tyleroni/static/js/main.f68eae63.js.map",
+    "main.aa3951ff.js.map": "/tyleroni/static/js/main.aa3951ff.js.map",
     "787.01fb0a4b.chunk.js.map": "/tyleroni/static/js/787.01fb0a4b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f84c2bb.css",
-    "static/js/main.f68eae63.js"
+    "static/js/main.aa3951ff.js"
   ]
 }
